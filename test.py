@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import unittest
 from main import to_upper
 
@@ -9,4 +10,17 @@ class MyTestCase(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+=======
+import unittest
+from main import to_upper
+
+class MyTestCase(unittest.TestCase):
+    def test_to_upper(self):
+        name = "parth"
+        upper_name= to_upper(name)
+        self.assertEqual(upper_name, "PARTH")
+
+if __name__ == '__main__':
+    unittest.main()
+>>>>>>> d01a25c19bcdc7bc55107a34563e8cea5f9d0428
         
